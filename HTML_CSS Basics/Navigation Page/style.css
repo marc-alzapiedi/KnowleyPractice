@@ -1,0 +1,56 @@
+/* Make the link text white and remove the underline. */
+/* Center the links within the nav block. */
+/* Apply 20px horizontal padding inside the links. */
+.link{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+/* Set the nav background to black. */
+/* Apply 10px vertical padding inside nav. */
+.nav{
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Eliminate margins around the navigation (margin: 0 for body). */
+/* Use the Arial font at a size of 16px for the entire page (html), with Helvetica as a fallback; don't forget the generic family sans-serif. */
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    /* text-align: center; */
+    width: 500px;
+    margin: 0 auto;
+    /* text-align: justify */
+}
+
+/* Limit the paragraph width to 500px. */
+/* Justify the text so it is evenly distributed across the paragraph. */
+p{
+    /* margin: 0 auto; */
+    text-align: justify;
+}
+
+/* Set the background color of footer to dim gray and the text color to white. */
+
+.footer{
+
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}

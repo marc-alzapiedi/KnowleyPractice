@@ -1,0 +1,48 @@
+.semaphore {
+    
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #444;
+    width: 30%;
+    margin: 0 auto;
+    max-width: 200px;
+    min-width: 100px;
+    
+}
+  
+.light {
+    margin-bottom: 5%;
+    padding-bottom: 100%;
+    border-radius: 50%;
+
+}
+
+.light--stop{
+    background-color: #400;
+}
+
+.light--ready{
+    background-color: #440;
+}
+
+.light--go{
+    background-color: #040;
+}
+
+@media (max-width: 499px) {
+    .light--stop{
+        background-color: #f00;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 599px){
+    .light--ready{
+        background-color: #ff0;
+    }
+}
+
+@media (min-width: 600px){
+    .light--go{
+        background-color: #0f0;
+    }
+}

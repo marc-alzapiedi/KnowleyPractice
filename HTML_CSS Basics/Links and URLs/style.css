@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.nav__link:link{
+    color: blue;
+    text-decoration: none;
+
+}
+
+.nav__link:visited{
+    color: purple;
+}
+
+.nav__link:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.nav__link:active{
+    color: yellow;
+}
+
+.section:target{
+    background-color: magenta;
+}
+
+.section:not(:last-child)::after{
+    height: 4px;
+}
+
+.section:not(:last-child)::after{
+    border-radius: 5px;
+}
+
+
+  

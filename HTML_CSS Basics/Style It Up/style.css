@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+}
+
+.block{
+    height: 100px;
+    width: 300px;
+}
+
+.header{
+    background-color: blue;
+}
+
+.footer{
+    background-color: black;
+}
+
+.important{
+    background-color: red;
+}
+
+.interesting{
+    background-color: green;
+}
+
+.surprising{
+    background-color: orange;
+}
